@@ -1,0 +1,23 @@
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.photo-grid img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1); 
+}
+
+
+.photo-grid a {
+    display: block; 
+}
